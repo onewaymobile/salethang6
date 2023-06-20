@@ -23,4 +23,7 @@
   .container__heading img{
     width: 100%;
   }
+  .margintop0-mb{
+    margin-top: 0;
+  }
 }
