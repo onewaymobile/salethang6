@@ -1,0 +1,278 @@
+.app {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  padding-top: 42%;
+  background-image: url(../image/Banner/Rectangle\ 313.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  margin-top: -1px;
+  position: relative;
+  background-color: #FFB000;
+}
+
+
+.navbar__img{
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.container__navbar {
+  position: relative;
+}
+
+.container__heading{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#iphone {
+  width: 100%;
+  height: auto;
+  background-color: #FF9900;
+  padding-bottom: 10px;
+  border-radius: 28px;
+}
+
+.navbar__item a img {
+  width: 100%;
+}
+
+.iphone__body {
+  padding: 0 10px;
+  padding-top: 17px;
+}
+
+.iphone__banner img{
+  width: 100%;
+}
+
+.iphone__item {
+  height: 206px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.row__hide {
+  display: none;
+}
+.row__hide .iphone__item {
+  animation: 0.3s linear fadein;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.open__hide {
+  width: 210px;
+  height: 44px;
+  background-color: white;
+  border: 1px solid #05E1FF;
+  border-radius: 5px;
+  color: black;
+  font-weight: 860;
+  font-size: 16px;
+  text-align: center;
+  line-height: 44px;
+  margin: 20px auto 0;
+}
+
+.open__hide:hover {
+  color: white;
+  background-color: #FFB000;
+  cursor: pointer;
+  border: unset;
+}
+
+.item__header {
+  display: flex;
+  justify-content: space-between;
+}
+.item__sale {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.item__sale img{
+  padding-left: 5px;
+}
+
+.item__mini {
+  width: 35px;
+  height: 25px;
+  background: #D9D9D9;
+  border-radius: 5px;font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 8px;
+  position: relative;
+  z-index: 3;
+}
+
+.item__mini + .item__mini {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.iphone__img {
+  width: 110px;
+  margin: 0 auto;
+  transform: translateY(-28%);
+  z-index: 0;
+  transition: transform 0.3s ease
+}
+
+.iphone__item:hover .iphone__img{
+  transform: translateY(-36%);
+}
+
+.iphone__color{
+  position: absolute;
+  top: 43px;
+  right: 10px;
+}
+
+.iphone__name {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  margin-top: -36px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  
+}
+
+.iphone__gny {
+  text-align: center;
+  color: #818181;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  margin-bottom: 0;
+  margin-top: 7px;
+}
+
+.iphone__gny span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: line-through;
+  margin-left: 2px;
+}
+
+.iphone__price{
+  text-align: center;
+  margin: 0;
+  color: #FF0000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 2px;
+}
+.iphone__tree {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
+
+#samsung {
+  margin-top: 200px;
+  width: 100%;
+  height: auto;
+  background-color: #FF9900;
+  padding-bottom: 10px;
+  border-radius: 28px;
+}
+
+#smartwatch{
+  margin-top: 200px;
+  width: 100%;
+  height: auto;
+  background-color: #FF9900;
+  padding-bottom: 10px;
+  border-radius: 28px;
+}
+#mac{
+  margin-top: 200px;
+  width: 100%;
+  height: auto;
+  background-color: #FF9900;
+  padding-bottom: 10px;
+  border-radius: 28px;
+}
+
+#ipad{
+  margin-top: 200px;
+  width: 100%;
+  height: auto;
+  background-color: #FF9900;
+  padding-bottom: 10px;
+  border-radius: 28px;
+}
+
+#tainghe{
+  margin-top: 200px;
+  width: 100%;
+  height: auto;
+  background-color: #FF9900;
+  padding-bottom: 10px;
+  border-radius: 28px;
+}
+
+#smarthome{
+  margin-top: 200px;
+  width: 100%;
+  height: auto;
+  background-color: #FF9900;
+  padding-bottom: 10px;
+  border-radius: 28px;
+}
+
+.item__mini--like {
+  line-height: 13px;
+}
+
+.font-size11 {
+  font-size: 11px;
+}
+
+.margintop0 {
+  margin-top: 0;
+}
+
+.iphone__gift{
+  position: absolute;
+  top: 43%;
+  right: 10%;
+}
+
+.marginright10 {
+  margin-right: 10px;
+}

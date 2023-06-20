@@ -1,0 +1,26 @@
+.show-on-pc{
+  display: flex;
+}
+.hide_on_pc {
+  display: none;
+}
+
+/* mobile & tablet */
+@media screen and (max-width: 1024px) {
+
+}
+
+/*  Mobile */
+@media screen and (max-width: 739px){
+  .hide_on_mobile {
+    display: none;
+  }
+
+  .container__heading {
+    width: 300px;
+  }
+
+  .container__heading img{
+    width: 100%;
+  }
+}
