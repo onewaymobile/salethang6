@@ -47,13 +47,7 @@
     opacity: 0;
     transition:all 0.3s linear;
   }
-  .lienhe:hover {
-    height: 100px;
-  }
-  .lienhe:hover .lienhe__list{
-    opacity: 1;
-    margin-top: 30px;
-  }
+
   /*chinh sach*/
   .chinhsach {
     margin-top: 8px;
@@ -85,13 +79,7 @@
     opacity: 0;
     transition:all 0.3s linear;
   }
-  .chinhsach:hover {
-    height: 100px;
-  }
-  .chinhsach:hover .chinhsach__list{
-    opacity: 1;
-    margin-top: 30px;
-  }
+
   /* thong tin khac */
   .others {
     margin-top: 8px;
@@ -123,12 +111,12 @@
     opacity: 0;
     transition:all 0.3s linear;
   }
-  .others:hover {
-    height: 100px;
+  .footer__show--btn.show {
+    height: 110px;
   }
-  .others:hover .others__list{
-    opacity: 1;
+  .footer__show--btn.show .footer__show--item {
     margin-top: 30px;
+    opacity: 1;
   }
 }
 

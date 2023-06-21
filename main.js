@@ -12,8 +12,8 @@ hideBtns.forEach(function(hideBtn){
 
 footerShowBtns.forEach(function(footerShowBtn){
   footerShowBtn.onclick = function(){
+    console.log('dmm')
     var footerShowItem = footerShowBtn.querySelector(".footer__show--item");
-    hideEle.classList.add('show-on-pc')
-    hideBtn.classList.add('hide_on_pc')
+    footerShowBtn.classList.add('show')
   }
 })
