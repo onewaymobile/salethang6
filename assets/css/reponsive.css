@@ -7,7 +7,129 @@
 
 /* mobile & tablet */
 @media screen and (max-width: 1024px) {
-
+  .footer {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .hide_on_tab {
+    display: none;
+  }
+  .show-on-tab{
+    display: flex;
+  }
+  .footer__body {
+    display: block;
+  }
+  .lienhe__header {
+    background-color: white;
+    font-size: 18px;
+    width: 200px;
+    margin: 0;
+    height: 20px;
+    position: relative;
+    z-index: 3;
+  }
+  .lienhe {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  .lienhe__list {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    margin-top: -60px;
+    opacity: 0;
+    transition:all 0.3s linear;
+  }
+  .lienhe:hover {
+    height: 100px;
+  }
+  .lienhe:hover .lienhe__list{
+    opacity: 1;
+    margin-top: 30px;
+  }
+  /*chinh sach*/
+  .chinhsach {
+    margin-top: 8px;
+  }
+  .chinhsach__header {
+    background-color: white;
+    font-size: 18px;
+    width: 200px;
+    margin: 0;
+    height: 20px;
+    position: relative;
+    z-index: 3;
+  }
+  .chinhsach {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  .chinhsach__list {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    margin-top: -60px;
+    opacity: 0;
+    transition:all 0.3s linear;
+  }
+  .chinhsach:hover {
+    height: 100px;
+  }
+  .chinhsach:hover .chinhsach__list{
+    opacity: 1;
+    margin-top: 30px;
+  }
+  /* thong tin khac */
+  .others {
+    margin-top: 8px;
+  }
+  .others__header {
+    background-color: white;
+    font-size: 18px;
+    width: 200px;
+    margin: 0;
+    height: 20px;
+    position: relative;
+    z-index: 3;
+  }
+  .others {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  .others__list {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    margin-top: -60px;
+    opacity: 0;
+    transition:all 0.3s linear;
+  }
+  .others:hover {
+    height: 100px;
+  }
+  .others:hover .others__list{
+    opacity: 1;
+    margin-top: 30px;
+  }
 }
 
 /*  Mobile */
@@ -15,7 +137,9 @@
   .hide_on_mobile {
     display: none;
   }
-
+  .show-on-mb{
+    display: flex;
+  }
   .container__heading {
     width: 300px;
   }

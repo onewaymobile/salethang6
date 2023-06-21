@@ -23,6 +23,7 @@ body {
   margin-top: -1px;
   position: relative;
   background-color: #FFB000;
+  padding-bottom: 300px;
 }
 
 
@@ -275,4 +276,132 @@ body {
 
 .marginright10 {
   margin-right: 10px;
+}
+
+.footer {
+  padding-top: 20px;
+}
+
+.footer__body {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.lienhe__header{
+  font-size: 15px;
+  font-weight: bold;
+}
+.lienhe__list{
+  padding: 0;
+  list-style: none;
+}
+.lienhe__item {
+  margin-bottom: 5px;
+}
+.lienhe__item a{
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  word-spacing: 1px;
+  letter-spacing: 0.6px;
+  font-weight: 350;
+}
+
+.chinhsach__header{
+  font-size: 15px;
+  font-weight: bold;
+}
+.chinhsach__list{
+  padding: 0;
+  list-style: none;
+}
+.chinhsach__item {
+  margin-bottom: 5px;
+}
+.chinhsach__item a{
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  word-spacing: 1px;
+  font-weight: 350;
+  letter-spacing: 0.6px;
+}
+.chinhsach__item:hover a{
+  color: #EF6837;
+}
+.lienhe__item:hover a{
+  color: #EF6837;
+}
+.others__item:hover a{
+  color: #EF6837;
+}
+.others__header{
+  font-size: 15px;
+  font-weight: bold;
+}
+.others__list{
+  padding: 0;
+  list-style: none;
+}
+.others__item {
+  margin-bottom: 5px;
+}
+.others__item a{
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  word-spacing: 1px;
+  font-weight: 350;
+  letter-spacing: 0.6px;
+}
+
+.payment__heaiding {
+  font-size: 15px;
+}
+.payment__lol {
+  margin-top: 4px;
+  display: flex;
+  transform: translateX(-7px);
+  align-items: center;
+}
+.payment__lol--item {
+  width: 133px;
+}
+
+.payment__lol--item img{
+  width: 100%;
+}
+
+.footer__footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dddddd;;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
+.footer__copy {
+  font-size: 16px;
+  color: #999999;
+}
+.footer__media {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.footer__media--item {
+
+}
+
+.footer__media--item a{
+  font-size: 17px;
+  color: #EF6837;
+}
+
+.showlist__btn {
+  font-size: 15px;
 }
