@@ -47,7 +47,9 @@
     opacity: 0;
     transition:all 0.3s linear;
   }
-
+  .lienhe__item a{
+    font-weight: 500;
+  }
   /*chinh sach*/
   .chinhsach {
     margin-top: 8px;
@@ -79,7 +81,9 @@
     opacity: 0;
     transition:all 0.3s linear;
   }
-
+  .chinhsach__item a{
+    font-weight: 500;
+  }
   /* thong tin khac */
   .others {
     margin-top: 8px;
@@ -110,6 +114,9 @@
     margin-top: -60px;
     opacity: 0;
     transition:all 0.3s linear;
+  }
+  .others__item a{
+    font-weight: 500;
   }
   .footer__show--btn.show {
     height: 110px;
