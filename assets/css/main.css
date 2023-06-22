@@ -58,7 +58,7 @@ body {
   transition: all 0.2s linear;
 }
 .navbar__item:hover {
-  transform: translateX(-4px) translateY(-4px);
+  transform: translateX(4px) translateY(-4px);
 }
 
 .navbar__item a img {
