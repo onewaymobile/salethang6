@@ -41,6 +41,8 @@ body {
   justify-content: center;
   width: 100%;
   margin-top: 100px;
+  z-index: 1;
+  position: relative;
 }
 
 #iphone {
@@ -49,6 +51,8 @@ body {
   background-color: #FF9900;
   padding-bottom: 10px;
   border-radius: 28px;
+  position: relative;
+  z-index: 1;
 }
 
 .navbar__item a img {
@@ -211,6 +215,8 @@ body {
   background-color: #FF9900;
   padding-bottom: 10px;
   border-radius: 28px;
+  position: relative;
+  z-index: 1;
 }
 
 #smartwatch{
