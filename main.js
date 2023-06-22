@@ -1,19 +1,30 @@
 var hideBtns = document.querySelectorAll(".open__hide");
-var footerShowBtns = document.querySelectorAll(".footer__show--btn");
+var footerShowParents = document.querySelectorAll(".footer__show--parent");
 
 hideBtns.forEach(function(hideBtn){
   hideBtn.onclick = function(){
     var parentElement = hideBtn.parentNode;
     var hideEle = parentElement.querySelector(".row__hide");
-    hideEle.classList.add('show-on-pc')
-    hideBtn.classList.add('hide_on_pc')
+    if(hideEle.classList.contains('show-on-pc')){
+      console.log("close")
+      hideEle.classList.remove('show-on-pc');
+      hideBtn.innerHTML = "Xem Thêm"
+    } else {
+      console.log("open")
+      hideEle.classList.add('show-on-pc');
+      hideBtn.innerHTML = "Đóng"
+    }
   }
 })
 
-footerShowBtns.forEach(function(footerShowBtn){
-  footerShowBtn.onclick = function(){
-    console.log('dmm')
-    var footerShowItem = footerShowBtn.querySelector(".footer__show--item");
-    footerShowBtn.classList.add('show')
+footerShowParents.forEach(function(footerShowParent){
+  var headerBtn = footerShowParent.querySelector(".footer__show--btn")
+  headerBtn.onclick = function(){
+    var footerShowItem = footerShowParent.querySelector(".footer__show--item");
+    if(footerShowItem.classList.contains('show')){
+      footerShowItem.classList.remove('show')
+    } else {
+      footerShowItem.classList.add('show')
+    }
   }
 })

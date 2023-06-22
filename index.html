@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rancho&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/grid.css">
   <link rel="stylesheet" href="./assets/css/base.css">
   <link rel="stylesheet" href="./assets/css/main.css">
@@ -29,7 +32,7 @@
               <div class="row">
                 <div class="navbar__item  col l-12 c-12 m-12">
                   <a href="#iphone">
-                    <img src="./assets/image/Banner/iphone.png" alt="">
+                    <img src="./assets/image/iphone/banner1.png" alt="">
                   </a>
                 </div>
                 <div class="navbar__item  col l-12 c-12 m-12">
@@ -72,7 +75,7 @@
 
         <div id="iphone">
           <div class="iphone__banner">
-            <img src="./assets/image/Banner/Rectangle 312.png" alt="">
+            <img src="./assets/image/iphone/banner2.png" alt="">
           </div>
           <div class="iphone__body">
             <div class="row row__open">
@@ -92,7 +95,9 @@
                       <div class="iphone__img">
                         <img src="./assets/image/iphone/14 vn.png" alt="">
                       </div>
- 
+                      <div class="iphone__color">
+                        <img src="./assets/image/sanpham/màu14.png" alt="">
+                      </div>
                       <h3 class="iphone__name">iPhone 14 VN/A</h3>
                       <p class="iphone__gny">
                         GNY <span> 18.790.000₫</span>
@@ -119,7 +124,9 @@
                       <div class="iphone__img">
                         <img src="./assets/image/iphone/14 vn.png" alt="">
                       </div>
- 
+                      <div class="iphone__color">
+                        <img src="./assets/image/sanpham/màu14.png" alt="">
+                      </div>
                       <h3 class="iphone__name">iPhone 14 Plus VN/A</h3>
                       <p class="iphone__gny">
                         GNY <span> 21.290.000₫</span>
@@ -323,7 +330,9 @@
                       <div class="iphone__img">
                         <img src="./assets/image/iphone/14plus.png" alt="">
                       </div>
- 
+                      <div class="iphone__color">
+                        <img src="./assets/image/sanpham/màu14.png" alt="">
+                      </div>
                       <h3 class="iphone__name">iPhone 14 Plus</h3>
                       <p class="iphone__gny">
                         GNY <span> 16.990.000₫</span>
@@ -350,7 +359,9 @@
                       <div class="iphone__img">
                         <img src="./assets/image/iphone/14 vn.png" alt="">
                       </div>
- 
+                      <div class="iphone__color">
+                        <img src="./assets/image/sanpham/màu14.png" alt="">
+                      </div>
                       <h3 class="iphone__name">iPhone 14</h3>
                       <p class="iphone__gny">
                         GNY <span> 15.990.000₫</span>
@@ -3302,8 +3313,13 @@
     <div class="footer">
       <div class="grid wide">
         <div class="footer__body">
-          <div class="lienhe footer__show--btn">
-            <h3 class="lienhe__header">Thông tin liên hệ</h3>
+          <div class="footer__show--parent">
+            <div class="lienhe footer__show--btn">
+              <h3 class="lienhe__header">Thông tin liên hệ</h3>
+              <div class="showlist__btn hide_on_pc show-on-mb show-on-tab">
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
             <ul class="lienhe__list footer__show--item">
               <li class="lienhe__item">
                 <a href="https://onewaymobile.vn/gioi-thieu-cong-ty-c1.html">Giới thiệu công ty</a>
@@ -3315,12 +3331,14 @@
                 <a href="https://onewaymobile.vn/lien-he.html">Liên hệ với chúng tôi</a>
               </li>
             </ul>
-            <div class="showlist__btn hide_on_pc show-on-mb show-on-tab">
-              <i class="fa-solid fa-angle-down"></i>
-            </div>
           </div>
-          <div class="chinhsach footer__show--btn">
-            <h3 class="chinhsach__header">Chính sách</h3>
+          <div class="footer__show--parent">
+            <div class="chinhsach footer__show--btn">
+              <h3 class="chinhsach__header">Chính sách</h3>
+              <div class="showlist__btn hide_on_pc show-on-mb show-on-tab">
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
             <ul class="chinhsach__list footer__show--item">
               <li class="chinhsach__item">
                 <a href="https://onewaymobile.vn/chinh-sach-mua-hang-c2.html">Chính sách mua hàng</a>
@@ -3332,12 +3350,14 @@
                 <a href="https://onewaymobile.vn/chinh-sach-van-chuyen-c4.html  ">Chính sách vận chuyển</a>
               </li>
             </ul>
-            <div class="showlist__btn hide_on_pc show-on-mb show-on-tab">
-              <i class="fa-solid fa-angle-down"></i>
-            </div>
           </div>
-          <div class="others footer__show--btn">
-            <h3 class="others__header">Thông tin khác</h3>
+          <div class="footer__show--parent">
+            <div class="others footer__show--btn">
+              <h3 class="others__header">Thông tin khác</h3>
+              <div class="showlist__btn hide_on_pc show-on-mb show-on-tab">
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
             <ul class="others__list footer__show--item">
               <li class="others__item">
                 <a href="https://onewaymobile.vn/cau-hoi-thuong-gap-khi-mua-hang-online-c9.html">Giải đáp mua hàng Online</a>
@@ -3349,29 +3369,26 @@
                 <a href="https://onewaymobile.vn/tuyen-dung-c10.html">Tuyển dụng</a>
               </li>
             </ul>
-            <div class="showlist__btn hide_on_pc show-on-mb show-on-tab">
-              <i class="fa-solid fa-angle-down"></i>
-            </div>
           </div>
     
           <div class="payment">
             <h3 class="payment__heaiding">Hỗ trợ thanh toán</h3>
-            <div class="payment__list">
-              <div class="payment__item">
-                <img src="./assets/image/payment/visa.png" alt="">
+              <div class="payment__list">
+                <div class="payment__item">
+                  <img src="./assets/image/payment/visa.png" alt="">
+                </div>
+                <div class="payment__item">
+                  <img src="./assets/image/payment/bank2.png" alt="">
+                </div>
               </div>
-              <div class="payment__item">
-                <img src="./assets/image/payment/bank2.png" alt="">
+              <div class="payment__lol">
+                <div class="payment__lol--item">
+                  <img src="./assets/image/payment/soweird.jpg" alt="">
+                </div>
+                <div class="payment__lol--item">
+                  <img src="./assets/image/payment/dcma.png" alt="">
+                </div>
               </div>
-            </div>
-            <div class="payment__lol">
-              <div class="payment__lol--item">
-                <img src="./assets/image/payment/soweird.jpg" alt="">
-              </div>
-              <div class="payment__lol--item">
-                <img src="./assets/image/payment/dcma.png" alt="">
-              </div>
-            </div>
           </div>
         </div>
         <div class="footer__footer">

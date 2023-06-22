@@ -8,8 +8,7 @@
 /* mobile & tablet */
 @media screen and (max-width: 1024px) {
   .footer {
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-top: 0;
   }
   .hide_on_tab {
     display: none;
@@ -19,15 +18,19 @@
   }
   .footer__body {
     display: block;
+    margin: 0;
+    padding: 0 10px;
   }
   .lienhe__header {
     background-color: white;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 700;
     width: 200px;
     margin: 0;
     height: 20px;
     position: relative;
     z-index: 3;
+    margin-top: 10px;
   }
   .lienhe {
     display: flex;
@@ -39,29 +42,24 @@
     transition: all 0.3s linear;
     cursor: pointer;
   }
-  .lienhe__list {
-    position: absolute;
-    display: block;
-    z-index: 1;
-    margin-top: -60px;
-    opacity: 0;
-    transition:all 0.3s linear;
-  }
+
   .lienhe__item a{
     font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
   }
+
   /*chinh sach*/
-  .chinhsach {
-    margin-top: 8px;
-  }
   .chinhsach__header {
     background-color: white;
-    font-size: 18px;
+    font-size: 14px;
     width: 200px;
     margin: 0;
     height: 20px;
     position: relative;
     z-index: 3;
+    margin-top: 10px;
+    font-weight: 700;
   }
   .chinhsach {
     display: flex;
@@ -73,29 +71,23 @@
     transition: all 0.3s linear;
     cursor: pointer;
   }
-  .chinhsach__list {
-    position: absolute;
-    display: block;
-    z-index: 1;
-    margin-top: -60px;
-    opacity: 0;
-    transition:all 0.3s linear;
-  }
+ 
   .chinhsach__item a{
     font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
   }
   /* thong tin khac */
-  .others {
-    margin-top: 8px;
-  }
   .others__header {
     background-color: white;
-    font-size: 18px;
+    font-size: 14px;
     width: 200px;
     margin: 0;
     height: 20px;
     position: relative;
     z-index: 3;
+    margin-top: 10px;
+    font-weight: 700;
   }
   .others {
     display: flex;
@@ -107,23 +99,63 @@
     transition: all 0.3s linear;
     cursor: pointer;
   }
-  .others__list {
-    position: absolute;
-    display: block;
-    z-index: 1;
-    margin-top: -60px;
-    opacity: 0;
-    transition:all 0.3s linear;
-  }
+
   .others__item a{
     font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
   }
-  .footer__show--btn.show {
-    height: 110px;
+
+  .lienhe__item {
+    margin-top: 8px;
+    margin-bottom: 0;
   }
+  .chinhsach__item {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  .others__item {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+
+  .footer__show--btn {
+    align-items: center;
+  }
+  .footer__show--item {
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: all 0.3s linear;
+  }
+  .footer__show--item.show {
+    height: 85px;
+  }
+ 
   .footer__show--btn.show .footer__show--item {
     margin-top: 30px;
     opacity: 1;
+  }
+  .showlist__btn {
+    font-weight: 900px;
+    font-size: 13px;
+    align-items: center;
+  }
+  .payment__heaiding {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .payment__lol {
+    justify-content: left;
+  }
+  .footer__footer {
+    padding: 10px 10px;
+  }
+
+  .footer__copy {
+    font-size: 13px;
+    padding-right: 20px;
   }
 }
 
