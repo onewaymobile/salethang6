@@ -1,6 +1,5 @@
 var hideBtns = document.querySelectorAll(".open__hide");
 var footerShowParents = document.querySelectorAll(".footer__show--parent");
-
 hideBtns.forEach(function(hideBtn){
   hideBtn.onclick = function(){
     var parentElement = hideBtn.parentNode;
@@ -16,7 +15,6 @@ hideBtns.forEach(function(hideBtn){
     }
   }
 })
-
 footerShowParents.forEach(function(footerShowParent){
   var headerBtn = footerShowParent.querySelector(".footer__show--btn")
   headerBtn.onclick = function(){
