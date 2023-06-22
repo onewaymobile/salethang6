@@ -226,6 +226,8 @@ body {
   background-color: #FF9900;
   padding-bottom: 10px;
   border-radius: 28px;
+  position: relative;
+  z-index: 1;
 }
 #mac{
   margin-top: 200px;
@@ -234,6 +236,8 @@ body {
   background-color: #FF9900;
   padding-bottom: 10px;
   border-radius: 28px;
+  position: relative;
+  z-index: 1;
 }
 
 #ipad{
@@ -243,6 +247,8 @@ body {
   background-color: #FF9900;
   padding-bottom: 10px;
   border-radius: 28px;
+  position: relative;
+  z-index: 1;
 }
 
 #tainghe{
@@ -252,6 +258,8 @@ body {
   background-color: #FF9900;
   padding-bottom: 10px;
   border-radius: 28px;
+  position: relative;
+  z-index: 1;
 }
 
 #smarthome{
@@ -261,6 +269,8 @@ body {
   background-color: #FF9900;
   padding-bottom: 10px;
   border-radius: 28px;
+  position: relative;
+  z-index: 1;
 }
 
 .item__mini--like {
