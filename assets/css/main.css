@@ -478,13 +478,13 @@ body {
 }
 
 .sale__detail--link a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-size: 19px;
 }
 
 .sale__detail--link:hover a{
-  color: #ffe5e5;
+  color: #00000075;
 }
 .search {
   background-color: #EF6837;
