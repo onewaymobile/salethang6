@@ -37,12 +37,6 @@
   .show-on-tab{
     display: flex;
   }
-  .row__hide-mb {
-    display: none;
-  }
-  .row__hide-mb.show {
-    display: block;
-  }
 
   .row__hide-mb .iphone__item {
     animation: 0.4s linear fadein;
@@ -203,6 +197,15 @@
 
 /*  Mobile */
 @media screen and (max-width: 739px){
+  .row__hide-mb {
+    display: none;
+  }
+  .container__navbar {
+    padding: 0 5px;
+  }
+  .row__hide-mb.show {
+    display: block;
+  }
   .modal__close {
     float: right;
     display: block;
@@ -228,6 +231,9 @@
   }
   .show-on-mb{
     display: flex;
+  }
+  .show-on-mb-block {
+    display: block;
   }
   .container__heading {
     width: 100%;
