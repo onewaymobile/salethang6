@@ -7,6 +7,27 @@
 
 /* mobile & tablet */
 @media screen and (max-width: 1024px) {
+  .header {
+    background-size: 162%;
+    background-position: center;
+    padding-top: 60%;
+  }
+
+  #iphone {
+    margin-top: 50px;
+  }
+  #mac {
+    margin-top: 50px;
+  }
+  #ipad {
+    margin-top: 50px;
+  }
+  #tainghe {
+    margin-top: 50px;
+  }
+  #smarthome {
+    margin-top: 50px;
+  }
   .footer {
     padding-top: 0;
   }
@@ -15,6 +36,16 @@
   }
   .show-on-tab{
     display: flex;
+  }
+  .row__hide-mb {
+    display: none;
+  }
+  .row__hide-mb.show {
+    display: block;
+  }
+
+  .row__hide-mb .iphone__item {
+    animation: 0.4s linear fadein;
   }
   .footer__body {
     display: block;
