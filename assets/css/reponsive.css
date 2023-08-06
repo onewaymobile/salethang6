@@ -161,10 +161,37 @@
     color: black;
     background-color: white;
   }
+  .search__container {
+    justify-content: space-between;
+  }
+  .search__bar  {
+    height: 36px;
+  }
+
 }
 
 /*  Mobile */
 @media screen and (max-width: 739px){
+  .modal__close {
+    float: right;
+    display: block;
+  }
+  .search__bar-link {
+    height: 40px;
+  }
+  .search__bar-link a{
+    font-size: 13px;
+  }
+  .search__container {
+    padding:0 10px;
+    justify-content: space-around;
+  }
+  .search__bar {
+    width: 60%;
+  }
+  .service__list {
+    padding: 0;
+  }
   .hide_on_mobile {
     display: none;
   }

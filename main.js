@@ -1,5 +1,25 @@
+var screenWidth = window.innerWidth;
+if (screenWidth <= 1024 && screenWidth > 350) {
+  var text = document.querySelector(".search__bar span")
+  text.innerHTML = "Tìm kiếm sản phẩm"
+} else if(screenWidth <= 350) {
+  var text = document.querySelector(".search__bar span")
+  text.innerHTML = "Tìm kiếm"
+}
 var hideBtns = document.querySelectorAll(".open__hide");
 var footerShowParents = document.querySelectorAll(".footer__show--parent");
+var body = document.querySelector("body")
+var searchBar = document.querySelector(".search__bar");
+var menu = document.querySelector("#menu")
+var menuBtn = document.querySelector(".search__menu")
+
+menuBtn.onclick = function(){
+  menu.classList.add("show")
+}
+menu.onclick = function(){
+  menu.classList.remove("show")
+}
+
 hideBtns.forEach(function(hideBtn){
   hideBtn.onclick = function(){
     var parentElement = hideBtn.parentNode;
@@ -26,3 +46,15 @@ footerShowParents.forEach(function(footerShowParent){
     }
   }
 })
+
+searchBar.onclick = function(e){
+  e.stopPropagation();
+  var searchBarlink =  searchBar.querySelector(".search__bar-link");
+  searchBarlink.classList.add("show");
+}
+
+body.onclick = function(e){
+  var searchBarlink =  searchBar.querySelector(".search__bar-link");
+  searchBarlink.classList.remove("show");
+}
+
