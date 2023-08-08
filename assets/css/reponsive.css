@@ -197,6 +197,7 @@
 
 /*  Mobile */
 @media screen and (max-width: 739px){
+
   .row__hide-mb {
     display: none;
   }
@@ -247,5 +248,8 @@
   }
   .margintop0-mb{
     margin-top: 0;
+  }
+  .margintop-2mb {
+    margin-top: -1px;
   }
 }
