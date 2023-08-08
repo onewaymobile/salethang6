@@ -201,7 +201,7 @@
     display: none;
   }
   .container__navbar {
-    padding: 0 5px;
+    padding: 0 3px;
   }
   .row__hide-mb.show {
     display: block;
