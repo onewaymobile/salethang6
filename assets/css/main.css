@@ -744,3 +744,14 @@ body {
 .item__list-mem:hover a{
   color: #C73536;
 }
+
+#watch {
+  width: 100%;
+  height: auto;
+  background-color: #175758;
+  padding-bottom: 10px;
+  border-radius: 28px;
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+}
