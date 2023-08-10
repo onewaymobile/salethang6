@@ -12,6 +12,9 @@ var body = document.querySelector("body")
 var searchBar = document.querySelector(".search__bar");
 var menu = document.querySelector("#menu")
 var menuBtn = document.querySelector(".search__menu")
+var submenubtn = document.querySelector(".footnav-item-btn");
+var subMenuEle = document.querySelector(".sub__menu-mb");
+var subMenuBtns = document.querySelectorAll(".sub__menu-header");
 
 menuBtn.onclick = function(){
   menu.classList.add("show")
@@ -74,5 +77,34 @@ searchBar.onclick = function(e){
 body.onclick = function(e){
   var searchBarlink =  searchBar.querySelector(".search__bar-link");
   searchBarlink.classList.remove("show");
+  subMenuEle.classList.remove("show");
 }
 
+// footnav
+
+
+subMenuEle.onclick = function(e){
+  e.stopPropagation();
+}
+submenubtn.onclick = function(e){
+  e.stopPropagation();
+
+  if(subMenuEle.classList.contains("show")){
+    subMenuEle.classList.remove("show");
+  } else {
+    subMenuEle.classList.add("show");
+  }
+}
+
+subMenuBtns.forEach(function(subMenuBtn){
+  subMenuBtn.onclick = function(){
+    var contentBox = subMenuBtn.parentElement.querySelector(".sub__menu-content");
+    var contentBoxCurent = document.querySelector(".sub__menu-content.show")
+    if(contentBoxCurent){
+      contentBoxCurent.classList.remove("show")
+    }
+    if(contentBox){
+      contentBox.classList.add("show");
+    }
+  }
+})
