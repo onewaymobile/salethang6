@@ -843,6 +843,7 @@ padding-top: 8px;
 
 .sub__menu-item {
   display: flex;
+  text-decoration: none;
 }
 
 .sub__menu-header {
